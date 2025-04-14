@@ -12,7 +12,7 @@ import joblib
 import numpy as np
 import nltk
 from nltk.translate.bleu_score import sentence_bleu
-nltk.download('punkt')
+nltk.download()
 
 # In PyTorch 2+, a warning for checkpoint mismatch is raised.
 # But it should be a false alarm according to the following issue.
